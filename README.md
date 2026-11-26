@@ -20,6 +20,8 @@ It contains:
    - Unity **2022.3 LTS** (recommended in this repo: `2022.3.40f1`)
    - Latest Sony Spatial Reality Display Mini SDK + runtime/driver from the official Sony download page  
      https://xyn.sony.net/en/developer/setup/spatial-reality-display-mini/download-info
+   - Official Unity samples reference  
+     https://xyn.sony.net/en/developer/setup/spatial-reality-display-mini/unity/samples
 3. **Environment**
    - The display should be connected and recognized by the OS before running Unity Play Mode.
 
@@ -166,3 +168,4 @@ Recommended prefab setup:
 1. Import your own humanoid/creature prefab.
 2. Add Animator Controller clips for polished motions.
 3. Keep `MotionPresetCycler` for debug demos, and replace with gameplay/state logic for production.
+4. Cross-check scene/camera configuration against Sony’s official Unity samples and mirror those settings for your SDK version.
